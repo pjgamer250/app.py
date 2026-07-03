@@ -21,5 +21,5 @@ def cleanup_temp_files():
   except:
     pass
   st.session_state['audio path'] -None
-  if 'yt_error' in st.session_stat:
-    del st.session_state['yt_error]
+  if 'yt_error' in st.session_state:
+    del st.session_state['yt_error']
